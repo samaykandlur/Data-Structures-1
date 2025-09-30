@@ -64,9 +64,9 @@ int main() {
         scanf("%d", &newJob.docID);
 
         printf("Enter document name for job %d: ", i + 1);
-        getchar();  // To consume the newline left by scanf
+        getchar();  
         fgets(newJob.docName, sizeof(newJob.docName), stdin);
-        newJob.docName[strcspn(newJob.docName, "\n")] = 0;  // Remove newline character
+        newJob.docName[strcspn(newJob.docName, "\n")] = 0;  
 
         enqueue(&queue, newJob);
     }
@@ -79,3 +79,4 @@ int main() {
 
     return 0;
 }
+
