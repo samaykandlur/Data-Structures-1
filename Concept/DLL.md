@@ -1,4 +1,4 @@
-# Doubly Linked List (DLL) — Exam-Ready Markdown Notes
+# Doubly Linked List (DLL) 
 
 This document explains Doubly linked-list.
 ---
