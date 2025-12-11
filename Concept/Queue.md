@@ -20,10 +20,10 @@ Firstly, you need to write the following cuz it's a standard:
 #include <stdlib.h>
 ```
 
-Now you also have to write cuz ure making life easier by making MAX a constant which you can use anywhere.
-`#define MAX 5` 
+You also need to write `#define MAX 5`. This makes MAX a constant that you can use anywhere.
+ 
 
-#### You gotta first create a queue for that you'll have to:
+#### You gotta first create a queue, for that you'll have to:
 
 Use  `typedef` to create a queue.
 
@@ -43,7 +43,7 @@ int front = -1, rear = -1;
 #### IsEmpty and IsFull
 This part is the easiest (2marks ez) 
 
-To check if the queue is empty, you just check if the front is still equal to `-1` (initial state), if it is, the queue is empty
+To check if the queue is empty, you check if the front is still equal to `-1` (initial state); if it is, the queue is empty
 Else if the queue has reached `MAX - 1`, that means the queue has reached full capacity.
 
 You may ask why `MAX - 1`: it cuz because your queue starts with an element in position `0`
