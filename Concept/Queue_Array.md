@@ -1,9 +1,9 @@
-# Queues 
+# Queues - Array Implementation
 {for krrish}
 Ok so basically in queues you need to remember these 6 functions. 
 Exam pov- you can literally paste it onto your paper, they'll give marks. Plus its v easy
 
-Remember the following functions and what they do. Its very essential for you to write these down for every Queue related question.
+Remember the following functions and what they do. Its very essential for you to write these down for every queue-related question. 
 
 1. `IsEmpty` : to check if the queue is empty or not 
 2. `IsFull` : to check if it's full or not 
@@ -12,6 +12,7 @@ Remember the following functions and what they do. Its very essential for you to
 5. `peek` : to see the element that is at the front of the queue
 6. `display` : to display the queue
 
+We'll be using array implementation here.
 ### Code:
 
 Firstly, you need to write the following cuz it's a standard:
@@ -152,4 +153,5 @@ int main(){
 ```
 
 ### Note: Whenever you find the queue is empty or full, print an error message notifying the same. 
+
 ## ALL THE BEST! 
